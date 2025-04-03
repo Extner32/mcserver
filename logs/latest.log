@@ -1,53 +1,45 @@
-[20:05:45] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[20:05:47] [ServerMain/INFO]: No existing world data, creating new world
-[20:05:49] [ServerMain/INFO]: Loaded 1373 recipes
-[20:05:49] [ServerMain/INFO]: Loaded 1484 advancements
-[20:05:49] [Server thread/INFO]: Starting minecraft server version 1.21.5
-[20:05:49] [Server thread/INFO]: Loading properties
-[20:05:49] [Server thread/INFO]: Default game type: SURVIVAL
-[20:05:49] [Server thread/INFO]: Generating keypair
-[20:05:49] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:05:49] [Server thread/INFO]: Using epoll channel type
-[20:05:49] [Server thread/INFO]: Preparing level "world"
-[20:06:02] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[20:06:02] [Worker-Main-2/INFO]: Preparing spawn area: 2%
-[20:06:02] [Worker-Main-2/INFO]: Preparing spawn area: 2%
-[20:06:03] [Worker-Main-3/INFO]: Preparing spawn area: 2%
-[20:06:03] [Worker-Main-3/INFO]: Preparing spawn area: 2%
-[20:06:04] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[20:06:04] [Worker-Main-3/INFO]: Preparing spawn area: 2%
-[20:06:05] [Worker-Main-3/INFO]: Preparing spawn area: 18%
-[20:06:05] [Worker-Main-1/INFO]: Preparing spawn area: 18%
-[20:06:06] [Worker-Main-3/INFO]: Preparing spawn area: 18%
-[20:06:06] [Worker-Main-1/INFO]: Preparing spawn area: 20%
-[20:06:07] [Worker-Main-1/INFO]: Preparing spawn area: 20%
-[20:06:07] [Worker-Main-1/INFO]: Preparing spawn area: 51%
-[20:06:08] [Worker-Main-2/INFO]: Preparing spawn area: 51%
-[20:06:08] [Worker-Main-1/INFO]: Preparing spawn area: 51%
-[20:06:09] [Worker-Main-3/INFO]: Preparing spawn area: 51%
-[20:06:09] [Worker-Main-2/INFO]: Preparing spawn area: 51%
-[20:06:10] [Worker-Main-3/INFO]: Preparing spawn area: 51%
-[20:06:10] [Worker-Main-2/INFO]: Preparing spawn area: 51%
-[20:06:11] [Worker-Main-3/INFO]: Preparing spawn area: 59%
-[20:06:11] [Server thread/INFO]: Time elapsed: 9089 ms
-[20:06:11] [Server thread/INFO]: Done (21.206s)! For help, type "help"
-[20:06:15] [User Authenticator #1/INFO]: UUID of player Extner is 1df0946a-9ad3-4d66-b8bb-c73a1f6beaf6
-[20:06:16] [Server thread/INFO]: Extner[/127.108.25.57:48805] logged in with entity id 42 at (0.5, 69.0, -8.5)
-[20:06:16] [Server thread/INFO]: Extner joined the game
-[20:06:25] [Server thread/INFO]: [Extner: Set own game mode to Creative Mode]
-[20:06:49] [Server thread/INFO]: [Extner: Set the world border to 256.0 block(s) wide]
-[20:06:58] [Server thread/INFO]: [Extner: Set the center of the world border to -4.31, -17.70]
-[20:07:36] [Server thread/INFO]: Extner lost connection: Disconnected
-[20:07:36] [Server thread/INFO]: Extner left the game
-[20:08:36] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[20:18:20] [Server thread/INFO]: Stopping the server
-[20:18:20] [Server thread/INFO]: Stopping server
-[20:18:20] [Server thread/INFO]: Saving players
-[20:18:20] [Server thread/INFO]: Saving worlds
-[20:18:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[20:18:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[20:18:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[20:18:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[20:18:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:18:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20:18:20] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[15:44:05] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[15:44:09] [ServerMain/INFO]: Loaded 1373 recipes
+[15:44:09] [ServerMain/INFO]: Loaded 1484 advancements
+[15:44:09] [Server thread/INFO]: Starting minecraft server version 1.21.5
+[15:44:09] [Server thread/INFO]: Loading properties
+[15:44:09] [Server thread/INFO]: Default game type: SURVIVAL
+[15:44:09] [Server thread/INFO]: Generating keypair
+[15:44:09] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:44:09] [Server thread/INFO]: Using epoll channel type
+[15:44:09] [Server thread/INFO]: Preparing level "world"
+[15:44:10] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:44:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[15:44:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[15:44:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[15:44:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[15:44:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[15:44:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[15:44:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[15:44:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[15:44:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[15:44:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[15:44:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[15:44:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[15:44:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[15:44:16] [Server thread/INFO]: Time elapsed: 6409 ms
+[15:44:16] [Server thread/INFO]: Done (7.009s)! For help, type "help"
+[15:44:16] [Server thread/ERROR]: Couldn't load server icon
+java.lang.NullPointerException: Cannot invoke "java.awt.image.BufferedImage.getWidth()" because "$$1" is null
+	at net.minecraft.server.MinecraftServer.j(SourceFile:892) ~[server-1.21.5.jar:?]
+	at java.base/java.util.Optional.flatMap(Optional.java:289) ~[?:?]
+	at net.minecraft.server.MinecraftServer.bC(SourceFile:889) ~[server-1.21.5.jar:?]
+	at net.minecraft.server.MinecraftServer.y(SourceFile:674) ~[server-1.21.5.jar:?]
+	at net.minecraft.server.MinecraftServer.a(SourceFile:290) ~[server-1.21.5.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[15:44:51] [Server thread/INFO]: Stopping the server
+[15:44:51] [Server thread/INFO]: Stopping server
+[15:44:51] [Server thread/INFO]: Saving players
+[15:44:51] [Server thread/INFO]: Saving worlds
+[15:44:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[15:44:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[15:44:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[15:44:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[15:44:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:44:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:44:51] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
