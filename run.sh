@@ -1,22 +1,21 @@
-#kill all previous screens
-pkill screen
+#!/bin/bash
 
-#pull the (new) icon and server properties from github
-REPO_OWNER="Extner32"
-REPO_NAME="mcserver"
-BRANCH="main"
+#set cwd
+cd /home/local/mcserver || exit 1
 
-RAW_URL="https://raw.githubusercontent.com/$REPO_OWNER/$REPO_NAME/$BRANCH"
+#kill all previous tmux sessions
+tmux kill-session -t minecraft
+tmux kill-session -t playit
 
-# Download the file, overwriting the existing one
-curl -o server-icon.png "$RAW_URL/server-icon.png"
-curl -o server.properties "$RAW_URL/server.properties"
+#pull the (new) icon and server properties from github and overwrite the existing files
 
+curl -o server-icon.png "https://raw.githubusercontent.com/Extner32/mcserver/main/server-icon.png"
+curl -o server.properties "https://raw.githubusercontent.com/Extner32/mcserver/main/server.properties"
 
-#start playit in seperate screen and detach immediately:
-screen -dmS playit playit
+#start playit in seperate tmux session and detach immediately:
+tmux new-session -d -s playit "playit"
 #wait for playit to start the tunnel
 sleep 2
 
-#start minecraft in seperate screen:
-screen -S minecraft java -Xms6G -Xmx6G -jar server.jar --nogui
+#start minecraft in seperate tmux session:
+tmux new-session -s minecraft "java -Xms8G -Xmx8G -jar server.jar --nogui"

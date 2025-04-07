@@ -1,45 +1,232 @@
-[15:44:05] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[15:44:09] [ServerMain/INFO]: Loaded 1373 recipes
-[15:44:09] [ServerMain/INFO]: Loaded 1484 advancements
-[15:44:09] [Server thread/INFO]: Starting minecraft server version 1.21.5
-[15:44:09] [Server thread/INFO]: Loading properties
-[15:44:09] [Server thread/INFO]: Default game type: SURVIVAL
-[15:44:09] [Server thread/INFO]: Generating keypair
-[15:44:09] [Server thread/INFO]: Starting Minecraft server on *:25565
-[15:44:09] [Server thread/INFO]: Using epoll channel type
-[15:44:09] [Server thread/INFO]: Preparing level "world"
-[15:44:10] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[15:44:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:44:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:44:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:44:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:44:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:44:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:44:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:44:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:44:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:44:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:44:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:44:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:44:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:44:16] [Server thread/INFO]: Time elapsed: 6409 ms
-[15:44:16] [Server thread/INFO]: Done (7.009s)! For help, type "help"
-[15:44:16] [Server thread/ERROR]: Couldn't load server icon
-java.lang.NullPointerException: Cannot invoke "java.awt.image.BufferedImage.getWidth()" because "$$1" is null
-	at net.minecraft.server.MinecraftServer.j(SourceFile:892) ~[server-1.21.5.jar:?]
-	at java.base/java.util.Optional.flatMap(Optional.java:289) ~[?:?]
-	at net.minecraft.server.MinecraftServer.bC(SourceFile:889) ~[server-1.21.5.jar:?]
-	at net.minecraft.server.MinecraftServer.y(SourceFile:674) ~[server-1.21.5.jar:?]
-	at net.minecraft.server.MinecraftServer.a(SourceFile:290) ~[server-1.21.5.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[15:44:51] [Server thread/INFO]: Stopping the server
-[15:44:51] [Server thread/INFO]: Stopping server
-[15:44:51] [Server thread/INFO]: Saving players
-[15:44:51] [Server thread/INFO]: Saving worlds
-[15:44:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[15:44:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[15:44:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[15:44:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[15:44:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[15:44:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[15:44:51] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[11:31:43] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[11:31:47] [ServerMain/INFO]: Loaded 1373 recipes
+[11:31:47] [ServerMain/INFO]: Loaded 1484 advancements
+[11:31:47] [Server thread/INFO]: Starting minecraft server version 1.21.5
+[11:31:47] [Server thread/INFO]: Loading properties
+[11:31:47] [Server thread/INFO]: Default game type: SURVIVAL
+[11:31:47] [Server thread/INFO]: Generating keypair
+[11:31:47] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:31:47] [Server thread/INFO]: Using epoll channel type
+[11:31:47] [Server thread/INFO]: Preparing level "world"
+[11:31:48] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[11:31:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:31:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:31:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:31:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:31:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:31:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:31:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:31:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:31:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:31:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:31:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:31:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:31:54] [Worker-Main-3/INFO]: Preparing spawn area: 32%
+[11:31:54] [Server thread/INFO]: Time elapsed: 6137 ms
+[11:31:54] [Server thread/INFO]: Done (6.741s)! For help, type "help"
+[11:32:25] [User Authenticator #1/INFO]: UUID of player Extner is 1df0946a-9ad3-4d66-b8bb-c73a1f6beaf6
+[11:32:26] [Server thread/INFO]: Extner[/127.108.25.57:51827] logged in with entity id 90 at (24.30000001192093, 68.0, -7.459084394585584)
+[11:32:26] [Server thread/INFO]: Extner joined the game
+[11:32:30] [Server thread/INFO]: Extner lost connection: Disconnected
+[11:32:30] [Server thread/INFO]: Extner left the game
+[11:33:30] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[11:40:17] [User Authenticator #2/INFO]: UUID of player TFMP is 0a7091b9-2bb9-4db6-b0a8-ff48c5e07b9f
+[11:40:18] [Server thread/INFO]: TFMP[/127.143.162.222:49845] logged in with entity id 181 at (29.333394897308047, 68.0, -8.372646154941046)
+[11:40:18] [Server thread/INFO]: TFMP joined the game
+[11:40:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
+[11:41:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9129ms or 182 ticks behind
+[11:41:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12642ms or 252 ticks behind
+[11:42:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13204ms or 264 ticks behind
+[11:42:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12701ms or 254 ticks behind
+[11:42:56] [Server thread/INFO]: TFMP burned to death
+[11:43:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13166ms or 263 ticks behind
+[11:43:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12954ms or 259 ticks behind
+[11:44:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12878ms or 257 ticks behind
+[11:44:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12319ms or 246 ticks behind
+[11:44:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12817ms or 256 ticks behind
+[11:45:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12619ms or 252 ticks behind
+[11:45:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12279ms or 245 ticks behind
+[11:46:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12327ms or 246 ticks behind
+[11:46:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12366ms or 247 ticks behind
+[11:47:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12343ms or 246 ticks behind
+[11:47:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12225ms or 244 ticks behind
+[11:48:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10499ms or 209 ticks behind
+[11:48:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7901ms or 158 ticks behind
+[11:48:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7951ms or 159 ticks behind
+[11:49:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13959ms or 279 ticks behind
+[11:49:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8815ms or 176 ticks behind
+[11:49:50] [Server thread/INFO]: TFMP has made the advancement [Not Today, Thank You]
+[11:50:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8321ms or 166 ticks behind
+[11:50:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7525ms or 150 ticks behind
+[11:50:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7638ms or 152 ticks behind
+[11:51:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8011ms or 160 ticks behind
+[11:51:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8197ms or 163 ticks behind
+[11:52:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8208ms or 164 ticks behind
+[11:52:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8348ms or 166 ticks behind
+[11:52:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8278ms or 165 ticks behind
+[11:53:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8036ms or 160 ticks behind
+[11:53:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7850ms or 157 ticks behind
+[11:53:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7920ms or 158 ticks behind
+[11:54:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8007ms or 160 ticks behind
+[11:54:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7729ms or 154 ticks behind
+[11:55:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7912ms or 158 ticks behind
+[11:55:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7709ms or 154 ticks behind
+[11:55:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7642ms or 152 ticks behind
+[11:56:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7797ms or 155 ticks behind
+[11:56:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7775ms or 155 ticks behind
+[11:56:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7923ms or 158 ticks behind
+[11:57:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7860ms or 157 ticks behind
+[11:57:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7844ms or 156 ticks behind
+[11:58:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7899ms or 157 ticks behind
+[11:58:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7716ms or 154 ticks behind
+[11:58:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7880ms or 157 ticks behind
+[11:59:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7642ms or 152 ticks behind
+[11:59:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7710ms or 154 ticks behind
+[12:00:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9595ms or 191 ticks behind
+[12:00:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12704ms or 254 ticks behind
+[12:00:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12383ms or 247 ticks behind
+[12:01:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12285ms or 245 ticks behind
+[12:01:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12581ms or 251 ticks behind
+[12:02:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12995ms or 259 ticks behind
+[12:02:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12309ms or 246 ticks behind
+[12:03:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12723ms or 254 ticks behind
+[12:03:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12426ms or 248 ticks behind
+[12:04:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12180ms or 243 ticks behind
+[12:04:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12329ms or 246 ticks behind
+[12:05:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12512ms or 250 ticks behind
+[12:05:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13009ms or 260 ticks behind
+[12:06:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12762ms or 255 ticks behind
+[12:06:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12562ms or 251 ticks behind
+[12:06:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12537ms or 250 ticks behind
+[12:07:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12501ms or 250 ticks behind
+[12:07:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12465ms or 249 ticks behind
+[12:08:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12291ms or 245 ticks behind
+[12:08:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12095ms or 241 ticks behind
+[12:09:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12007ms or 240 ticks behind
+[12:09:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11983ms or 239 ticks behind
+[12:10:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12035ms or 240 ticks behind
+[12:10:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11828ms or 236 ticks behind
+[12:11:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11844ms or 236 ticks behind
+[12:11:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11859ms or 237 ticks behind
+[12:11:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12307ms or 246 ticks behind
+[12:12:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12193ms or 243 ticks behind
+[12:12:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12103ms or 242 ticks behind
+[12:13:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12066ms or 241 ticks behind
+[12:13:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11923ms or 238 ticks behind
+[12:14:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12260ms or 245 ticks behind
+[12:14:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12417ms or 248 ticks behind
+[12:15:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11970ms or 239 ticks behind
+[12:15:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12375ms or 247 ticks behind
+[12:15:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12576ms or 251 ticks behind
+[12:16:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12888ms or 257 ticks behind
+[12:16:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12555ms or 251 ticks behind
+[12:17:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12981ms or 259 ticks behind
+[12:17:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12495ms or 249 ticks behind
+[12:18:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12182ms or 243 ticks behind
+[12:18:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12170ms or 243 ticks behind
+[12:19:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12086ms or 241 ticks behind
+[12:19:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11728ms or 234 ticks behind
+[12:20:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
+[12:20:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7406ms or 148 ticks behind
+[12:21:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8779ms or 175 ticks behind
+[12:21:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8722ms or 174 ticks behind
+[12:22:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12370ms or 247 ticks behind
+[12:22:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11857ms or 237 ticks behind
+[12:23:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18218ms or 364 ticks behind
+[12:23:03] [Server thread/INFO]: TFMP lost connection: Disconnected
+[12:23:03] [Server thread/INFO]: TFMP left the game
+[12:24:02] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[12:52:11] [User Authenticator #3/INFO]: UUID of player Extner is 1df0946a-9ad3-4d66-b8bb-c73a1f6beaf6
+[12:52:13] [Server thread/INFO]: Extner[/127.108.25.57:34657] logged in with entity id 6228 at (24.30000001192093, 68.0, -7.459084394585584)
+[12:52:13] [Server thread/INFO]: Extner joined the game
+[12:52:37] [Server thread/INFO]: [Extner: Set own game mode to Creative Mode]
+[12:52:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
+[12:53:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8346ms or 166 ticks behind
+[12:53:06] [Server thread/WARN]: Extner moved too quickly! -7.880023541839116,6.4346931251831165,1.0944785226377114
+[12:53:16] [Server thread/WARN]: Extner moved too quickly! 10.02665899183998,0.0,-0.8371847835786852
+[12:53:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[12:53:38] [Server thread/INFO]: Locating element minecraft:fortress took 1 ms
+[12:53:45] [Server thread/INFO]: [Extner: Teleported Extner to 48.500000, 63.812400, -287.500000]
+[12:53:52] [Server thread/INFO]: [Extner: Set own game mode to Spectator Mode]
+[12:53:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6610ms or 132 ticks behind
+[12:54:04] [Server thread/WARN]: Extner moved too quickly! -6.9189168910408725,0.0,7.850142743451329
+[12:54:08] [Server thread/WARN]: Extner moved too quickly! -1.2689816254749005,-2.446947937232963,9.926664289978135
+[12:54:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13536ms or 270 ticks behind
+[12:54:24] [Server thread/INFO]: Extner has made the advancement [A Terrible Fortress]
+[12:54:37] [Server thread/INFO]: [Extner: Set the center of the world border to 57.96, -212.89]
+[12:54:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9483ms or 189 ticks behind
+[12:54:51] [Server thread/WARN]: Extner moved too quickly! 6.1745525067142175,0.0,8.850203593216754
+[12:54:58] [Server thread/WARN]: Extner moved too quickly! -6.851221968431376,0.0,8.267085181059496
+[12:55:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14718ms or 294 ticks behind
+[12:55:29] [Server thread/INFO]: Extner lost connection: Timed out
+[12:55:29] [Server thread/INFO]: Extner left the game
+[12:55:29] [Server thread/WARN]: handleDisconnection() called twice
+[12:55:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4584ms or 91 ticks behind
+[12:56:27] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[12:58:16] [User Authenticator #4/INFO]: UUID of player Extner is 1df0946a-9ad3-4d66-b8bb-c73a1f6beaf6
+[12:58:16] [Server thread/INFO]: Extner[/127.108.25.57:45909] logged in with entity id 6529 at (-12.559353230358361, 93.61641665858753, 8.900861694933024)
+[12:58:16] [Server thread/INFO]: Extner joined the game
+[12:58:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2028ms or 40 ticks behind
+[12:58:45] [Server thread/INFO]: [Extner: Set own game mode to Creative Mode]
+[12:59:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2284ms or 45 ticks behind
+[12:59:07] [Server thread/INFO]: [Extner: Set own game mode to Spectator Mode]
+[12:59:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7285ms or 145 ticks behind
+[12:59:44] [Server thread/INFO]: [Extner: Teleported Extner to 0.500000, 0.000000, 0.500000]
+[12:59:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5727ms or 114 ticks behind
+[13:00:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8174ms or 163 ticks behind
+[13:00:16] [Server thread/INFO]: [Extner: Set the center of the world border to 35.93, -2.23]
+[13:00:27] [Server thread/WARN]: Extner moved too quickly! 10.241683213264125,0.010077475326525587,3.4260474348366223
+[13:00:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12122ms or 242 ticks behind
+[13:00:41] [Server thread/INFO]: [Extner: Set the center of the world border to 33.80, -7.49]
+[13:00:52] [Server thread/WARN]: Extner moved too quickly! 4.409877318590873,0.0,9.122033156261875
+[13:00:52] [Server thread/INFO]: [Extner: Set the center of the world border to 38.13, 1.51]
+[13:01:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11376ms or 227 ticks behind
+[13:01:26] [Server thread/INFO]: Extner lost connection: Disconnected
+[13:01:26] [Server thread/INFO]: Extner left the game
+[13:01:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9834ms or 196 ticks behind
+[13:01:35] [Server thread/INFO]: Extner (/127.108.25.57:44145) lost connection: Disconnected
+[13:01:46] [User Authenticator #5/INFO]: UUID of player Extner is 1df0946a-9ad3-4d66-b8bb-c73a1f6beaf6
+[13:01:50] [Server thread/INFO]: Extner[/127.108.25.57:49151] logged in with entity id 6954 at (38.13486253061887, 91.10799923186428, 1.5085879094265429)
+[13:01:50] [Server thread/INFO]: Extner joined the game
+[13:02:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2363ms or 47 ticks behind
+[13:02:08] [Server thread/WARN]: Extner moved too quickly! -4.940691219673358,0.0,-9.031618457979558
+[13:02:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6780ms or 135 ticks behind
+[13:02:52] [Server thread/INFO]: [Extner: Set the center of the world border to 52.72, 5.90]
+[13:02:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11079ms or 221 ticks behind
+[13:02:59] [Server thread/INFO]: [Extner: Set the center of the world border to 42.49, 2.40]
+[13:03:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12842ms or 256 ticks behind
+[13:03:22] [Server thread/INFO]: [Extner: Set the center of the world border to 38.70, -0.85]
+[13:03:26] [Server thread/INFO]: [Extner: Set the center of the world border to 44.48, 3.06]
+[13:03:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12730ms or 254 ticks behind
+[13:04:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11695ms or 233 ticks behind
+[13:04:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11550ms or 231 ticks behind
+[13:05:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11665ms or 233 ticks behind
+[13:05:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11596ms or 231 ticks behind
+[13:05:39] [Server thread/INFO]: [Extner: Set the center of the world border to 45.42, 3.05]
+[13:06:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18114ms or 362 ticks behind
+[13:06:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15969ms or 319 ticks behind
+[13:06:57] [Server thread/INFO]: [Extner: Set the center of the world border to 45.50, 3.50]
+[13:07:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12400ms or 248 ticks behind
+[13:07:19] [Server thread/INFO]: [Extner: Set the center of the world border to 45.50, 20.50]
+[13:07:30] [Server thread/INFO]: [Extner: Set the center of the world border to 45.50, 15.50]
+[13:07:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11104ms or 222 ticks behind
+[13:07:54] [Server thread/INFO]: Extner lost connection: Disconnected
+[13:07:54] [Server thread/INFO]: Extner left the game
+[13:07:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8298ms or 165 ticks behind
+[13:08:27] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Input/output error
+	at java.base/java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:287) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:345) ~[?:?]
+	at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:399) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:350) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:393) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:217) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:171) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:188) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
+	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
+	at aqr$1.run(SourceFile:102) [server-1.21.5.jar:?]
