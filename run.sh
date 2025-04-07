@@ -18,4 +18,6 @@ tmux new-session -d -s playit "playit"
 sleep 2
 
 #start minecraft in seperate tmux session:
-tmux new-session -s minecraft "java -Xms8G -Xmx8G -jar server.jar --nogui"
+#-XX:+UseG1GC sets the garbage collector to have minimal delays with large heap sizes
+
+tmux new-session -s minecraft "java -server -XX:+UseG1GC -Xms1G -Xmx6G -jar purpur.jar --nogui"
