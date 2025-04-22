@@ -1761,7 +1761,7 @@ world-settings:
           mobs-target: true
         exp-dropped-on-death:
           equation: expLevel * 7
-          maximum: 100
+          maximum: 10000
         teleport-if-outside-border: false
         teleport-on-nether-ceiling-damage: false
         totem-of-undying-works-in-inventory: false
@@ -1805,7 +1805,7 @@ world-settings:
       entity-lifespan: 0
       entity-left-handed-chance: 0.05000000074505806
       minecart:
-        max-speed: 0.4
+        max-speed: 0.8
         place-anywhere: false
         powered-rail:
           boost-modifier: 0.06

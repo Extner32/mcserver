@@ -1,2 +1,7 @@
 server.jar
 world_test/
+plugins/
+libraries/
+logs/
+cache/
+.console_history
