@@ -1,71 +1,66 @@
-[15:51:39] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-124.10.1; Ubuntu null) on Linux 6.11.0-21-generic (amd64)
-[15:51:39] [ServerMain/INFO]: [bootstrap] Loading Purpur 1.21.4-2412-HEAD@9249a2c (2025-03-28T00:08:24Z) for Minecraft 1.21.4
-[15:51:39] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[15:51:39] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/ViaRewind%20Legacy%20Support.jar'...
-[15:51:40] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/ViaRewind%20Legacy%20Support.jar' in 1069ms.
-[15:51:41] [ServerMain/INFO]: [PluginInitializerManager] Initialized 5 plugins
-[15:51:41] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (5):
- - AutoViaUpdater (9.5.2), ViaBackwards (5.3.2), ViaRewind (4.0.7), ViaRewind-Legacy-Support (1.5.2), ViaVersion (5.3.3-SNAPSHOT)
-[15:51:48] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[15:51:51] [ServerMain/INFO]: Loaded 1370 recipes
-[15:51:51] [ServerMain/INFO]: Loaded 1481 advancements
-[15:51:51] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
-[15:51:52] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 376.3ms
-[15:51:52] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[15:51:52] [Server thread/INFO]: Loading properties
-[15:51:52] [Server thread/INFO]: This server is running Purpur version 1.21.4-2412-HEAD@9249a2c (2025-03-28T00:08:24Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
-[15:51:52] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[15:51:52] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[15:51:52] [Server thread/INFO]: Using 4 threads for Netty based IO
-[15:51:54] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[15:51:54] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[15:51:55] [Server thread/INFO]: Default game type: SURVIVAL
-[15:51:55] [Server thread/INFO]: Generating keypair
-[15:51:55] [Server thread/INFO]: Starting Minecraft server on *:25565
-[15:51:55] [Server thread/INFO]: Using epoll channel type
-[15:51:55] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[15:51:55] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[15:51:56] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.3.3-SNAPSHOT
-[15:51:56] [Server thread/INFO]: [ViaVersion] ViaVersion 5.3.3-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
-[15:51:57] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[15:51:58] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[15:51:58] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[15:51:58] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[15:51:59] [Server thread/INFO]: [ViaRewind] Registering protocols...
-[15:51:59] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.3.2
-[15:51:59] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.7
-[15:51:59] [Server thread/INFO]: [ViaRewind-Legacy-Support] Loading server plugin ViaRewind-Legacy-Support v1.5.2
-[15:51:59] [Server thread/INFO]: [AutoViaUpdater] Loading server plugin AutoViaUpdater v9.5.2
-[15:51:59] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[15:51:59] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.7
-[15:51:59] [Server thread/INFO]: Preparing level "world"
-[15:52:01] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[15:52:01] [Server thread/INFO]: Preparing spawn area: 0%
-[15:52:01] [Server thread/INFO]: Preparing spawn area: 0%
-[15:52:02] [Server thread/INFO]: Preparing spawn area: 0%
-[15:52:02] [Server thread/INFO]: Preparing spawn area: 0%
-[15:52:02] [Server thread/INFO]: Time elapsed: 1780 ms
-[15:52:02] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[15:52:02] [Server thread/INFO]: Preparing spawn area: 0%
-[15:52:03] [Server thread/INFO]: Time elapsed: 479 ms
-[15:52:03] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[15:52:03] [Server thread/INFO]: Preparing spawn area: 0%
-[15:52:03] [Server thread/INFO]: Time elapsed: 202 ms
-[15:52:03] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.3.3-SNAPSHOT
-[15:52:03] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.4 (769)
-[15:52:03] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.3.2
-[15:52:03] [Server thread/INFO]: [ViaRewind-Legacy-Support] Enabling ViaRewind-Legacy-Support v1.5.2
-[15:52:03] [Server thread/INFO]: [AutoViaUpdater] Enabling AutoViaUpdater v9.5.2
-[15:52:04] [Server thread/INFO]: [spark] Starting background profiler...
-[15:52:04] [Server thread/INFO]: Done preparing level "world" (4.549s)
-[15:52:04] [Server thread/INFO]: Running delayed init tasks
-[15:52:04] [Server thread/INFO]: Done (26.664s)! For help, type "help"
-[15:52:04] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[15:52:04] [Server thread/INFO]: [ViaVersion] You are running a development version of the plugin, please report any bugs to GitHub.
-[15:53:04] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[15:55:46] [User Authenticator #0/INFO]: UUID of player Extner is 1df0946a-9ad3-4d66-b8bb-c73a1f6beaf6
-[15:55:48] [Server thread/INFO]: Extner joined the game
-[15:55:49] [Server thread/INFO]: Extner[/127.50.53.115:38729] logged in with entity id 257 at ([world]67.23559387753158, 67.0, -23.971556391971795)
-[15:55:54] [Server thread/INFO]: Extner lost connection: Disconnected
-[15:55:54] [Server thread/INFO]: Extner left the game
-[15:56:52] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[05:00:41] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-124.10.1; Ubuntu null) on Linux 6.11.0-24-generic (amd64)
+[05:00:41] [ServerMain/INFO]: [bootstrap] Loading Purpur 1.21.4-2412-HEAD@9249a2c (2025-03-28T00:08:24Z) for Minecraft 1.21.4
+[05:00:41] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[05:00:42] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
+[05:00:42] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
+ - AutoViaUpdater (9.5.2), Geyser-Spigot (2.7.0-SNAPSHOT), ViaVersion (5.3.3-SNAPSHOT)
+[05:00:50] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[05:00:53] [ServerMain/INFO]: Loaded 1370 recipes
+[05:00:53] [ServerMain/INFO]: Loaded 1481 advancements
+[05:00:53] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[05:00:54] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 351.4ms
+[05:00:54] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[05:00:54] [Server thread/INFO]: Loading properties
+[05:00:54] [Server thread/INFO]: This server is running Purpur version 1.21.4-2412-HEAD@9249a2c (2025-03-28T00:08:24Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
+[05:00:54] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[05:00:54] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[05:00:54] [Server thread/INFO]: Using 4 threads for Netty based IO
+[05:00:57] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[05:00:57] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[05:00:57] [Server thread/INFO]: Default game type: SURVIVAL
+[05:00:57] [Server thread/INFO]: Generating keypair
+[05:00:57] [Server thread/INFO]: Starting Minecraft server on *:8001
+[05:00:57] [Server thread/INFO]: Using epoll channel type
+[05:00:57] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[05:00:57] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[05:00:58] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.3.3-SNAPSHOT
+[05:00:58] [Server thread/INFO]: [ViaVersion] ViaVersion 5.3.3-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
+[05:00:59] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[05:01:00] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[05:01:00] [Server thread/INFO]: [AutoViaUpdater] Loading server plugin AutoViaUpdater v9.5.2
+[05:01:00] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.7.0-SNAPSHOT
+[05:01:02] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[05:01:02] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[05:01:02] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[05:01:02] [Server thread/INFO]: Preparing level "world"
+[05:01:04] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[05:01:04] [Server thread/INFO]: Preparing spawn area: 0%
+[05:01:05] [Server thread/INFO]: Preparing spawn area: 0%
+[05:01:05] [Server thread/INFO]: Preparing spawn area: 0%
+[05:01:05] [Server thread/INFO]: Preparing spawn area: 0%
+[05:01:06] [Server thread/INFO]: Time elapsed: 1886 ms
+[05:01:06] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[05:01:06] [Server thread/INFO]: Preparing spawn area: 0%
+[05:01:06] [Server thread/INFO]: Preparing spawn area: 77%
+[05:01:06] [Server thread/INFO]: Time elapsed: 531 ms
+[05:01:06] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[05:01:06] [Server thread/INFO]: Preparing spawn area: 0%
+[05:01:06] [Server thread/INFO]: Time elapsed: 259 ms
+[05:01:06] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.3.3-SNAPSHOT
+[05:01:06] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.4 (769)
+[05:01:06] [Server thread/INFO]: [AutoViaUpdater] Enabling AutoViaUpdater v9.5.2
+[05:01:07] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.7.0-SNAPSHOT
+[05:01:08] [Server thread/INFO]: [spark] Starting background profiler...
+[05:01:08] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[05:01:08] [Server thread/INFO]: [Geyser-Spigot] 
+[05:01:08] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.7.0-b818 (git-master-b06f1ed)
+[05:01:08] [Server thread/INFO]: [Geyser-Spigot] 
+[05:01:08] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[05:01:17] [Server thread/INFO]: [Geyser-Spigot] Started Geyser on UDP port 10002
+[05:01:17] [Server thread/INFO]: [Geyser-Spigot] Done (8.861s)! Run /geyser help for help!
+[05:01:17] [Server thread/INFO]: Done preparing level "world" (15.208s)
+[05:01:17] [Server thread/INFO]: Running delayed init tasks
+[05:01:17] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[05:01:17] [Server thread/INFO]: Done (38.236s)! For help, type "help"
+[05:01:18] [Server thread/INFO]: [ViaVersion] You are running a development version of the plugin, please report any bugs to GitHub.
+[05:02:17] [Server thread/INFO]: Server empty for 60 seconds, pausing
